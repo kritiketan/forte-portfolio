@@ -1,0 +1,22 @@
+.portal-spacing {
+    margin-top: 10rem;
+    margin-left: 20rem;
+}
+
+.highlight-text-u {
+    color: #752CEB;
+    text-decoration: underline;
+}
+
+.highlight-text-no-u {
+    color: #752CEB;
+}
+
+.sub-text {
+    font-weight: 500;
+}
+
+.header-word-spacing {
+    word-spacing: 0.4rem;
+    font-size: 2rem;
+}
