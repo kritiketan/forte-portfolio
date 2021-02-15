@@ -169,6 +169,37 @@ body {
     font-weight: 700;
     font-size: 20px;
     margin-top: 50px;
-    text-shadow: #190B3D;
+    text-shadow:var(--black-primary);
     letter-spacing: 4px;
+}
+
+.portal-spacing {
+    padding-top: 200px;
+}
+
+.highlight-text-u {
+    color: #752CEB;
+    text-decoration: underline;
+}
+
+.highlight-text-no-u {
+    color: var(--black-primary);
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 600;
+}
+
+.sub-highlight-text-no-u {
+    color: var(--text-color-secondary);
+    font-size: 20px;
+    letter-spacing: 4px;
+    font-weight: 600;
+}
+
+.circle-image{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    box-shadow: 1px 1px 20px .05px rgba(0, 0, 255, .2);
+    /* background: linear-gradient(to right top, #4c2097 50%, #752CEB 100%); */
 }

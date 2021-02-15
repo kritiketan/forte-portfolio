@@ -6,7 +6,6 @@ import { NotfoundComponent } from './public/notfound/notfound.component';
 const routes: Routes = [
   { path: '404', component:  NotfoundComponent},
   { path: ':slashUrl', component: OnlineportalComponent }
-  
 ];
 
 @NgModule({

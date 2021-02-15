@@ -1,27 +1,26 @@
-<!-- 
-Section-1
-<section class="container portal-spacing">
-    <div class="row align-items-center justify-content-center">
-        <div class="col-md-12">
-            <h1 class="header-word-spacing display-5">Hey there, I am <span class="highlight-text-u">Kittu</span>. 👋🏼</h1>
-        </div>
-    </div>
-    <div class="row align-items-center justify-content-center">
-        <div class="col-md-12">
-            <p class="sub-text">I am a <span class="highlight-text-no-u">Software Engineer</span></p> <br>
-            <p class="sub-text">based in Melbourne</p>
-        </div>
-    </div>
-</section>-->
-<!--Section-2
-<section class="container-fluid" style="margin-top:15rem">
-    <div class="row justify-content-center">
-        <div class="col">
-            <h1 class="text-center">
-                My work
+<div style="position: absolute; height: 10px;width:100%; ">
+    <div id="particles-js"></div>
+</div>
+<div class="container">
+    <app-headernav></app-headernav>
+        <section class="row align-items-center justify-content-center portal-spacing">
+            <div class="circle-image shadow">
+                <img src="../../../assets/images/astro.png" width="90px" height="90px" alt="" srcset="">
+            </div>
+        </section>
+
+        <section class="row align-items-center justify-content-center mt-5">
+            <h1 class="highlight-text-no-u">
+                {{user.firstName}}  {{user.lastName}} 
             </h1>
-            <app-downarrow-animated></app-downarrow-animated>
-        </div>
-    </div>
-</section>
--->
+        </section>
+
+        <div class="row align-items-center justify-content-center mt-3">
+            <p class="sub-highlight-text-no-u">
+                {{user.bio}}
+            </p>
+        </div>   
+        
+        
+            
+</div>
