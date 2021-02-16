@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { NotfoundComponent } from './public/notfound/notfound.component';
 import { HeadernavComponent } from './public/headernav/headernav.component';
 import { OnlineportalComponent } from './public/onlineportal/onlineportal.component'
+import { ContactSectionComponent } from './public/contact-section/contact-section.component';
 
 import { ParticlesComponent } from './public/particles/particles.component';
 
@@ -15,7 +16,8 @@ import { ParticlesComponent } from './public/particles/particles.component';
     NotfoundComponent,
     HeadernavComponent,
     OnlineportalComponent,
-    ParticlesComponent
+    ParticlesComponent,
+    ContactSectionComponent
   ],
   imports: [
     BrowserModule,
