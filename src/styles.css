@@ -165,36 +165,73 @@ body {
     color: var(--black-primary);
 }
 
-.big-n-bold {
-    font-weight: 700;
-    font-size: 20px;
-    margin-top: 50px;
-    text-shadow:var(--black-primary);
-    letter-spacing: 4px;
-}
 
 .portal-spacing {
-    padding-top: 200px;
+    padding-top: 180px;
+    padding-left:180px;
 }
 
-.highlight-text-u {
-    color: #752CEB;
-    text-decoration: underline;
+.gen-space{
+    margin-top: 5px;
+    padding: 5px;
+    justify-content: left;
 }
 
-.highlight-text-no-u {
-    color: var(--black-primary);
-    font-size: 40px;
-    letter-spacing: 4px;
+.heading-text{
+    font-size: 28px;
+    letter-spacing: 1px;
     font-weight: 600;
 }
 
-.sub-highlight-text-no-u {
-    color: var(--text-color-secondary);
-    font-size: 20px;
-    letter-spacing: 4px;
+.sub-heading-text{
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.highlight-text {
     font-weight: 600;
 }
+
+.body-text{
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.icon{
+    font-size: 28px;
+    text-decoration: none;
+}
+.icon-big{
+    font-size: 60px;
+    text-decoration: none;
+}
+.icon.icon-space{
+    margin-left: 20px;
+}
+
+.body-header-space{
+    padding: 0;
+    margin: 0;
+    margin-top: 15px;
+}
+
+@media(max-width:767px){
+    .portal-spacing {
+        padding: 20px;
+        margin-top: 120px;
+    }
+    .heading-text{
+        font-size: 18px;
+    }
+    .sub-heading-text{
+        font-size: 16px;
+    }
+    .body-text{
+        font-size: 14px;
+    }
+}
+
 
 .circle-image{
     border-radius: 50%;
@@ -202,4 +239,27 @@ body {
     height: 100px;
     box-shadow: 1px 1px 20px .05px rgba(0, 0, 255, .2);
     /* background: linear-gradient(to right top, #4c2097 50%, #752CEB 100%); */
+}
+
+
+.big-n-bold {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 50px;
+    text-shadow:var(--black-primary);
+    letter-spacing: 4px;
+}
+.sub-highlight-text-no-u {
+    /* color: var(--text-color-secondary); */
+    color: var(--black-primary);
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.highlight-text-no-u {
+    color: var(--black-primary);
+    font-size: 28px;
+    letter-spacing: 1px;
+    font-weight: 600;
 }

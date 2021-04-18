@@ -9,6 +9,7 @@ import { OnlineportalComponent } from './public/onlineportal/onlineportal.compon
 import { ContactSectionComponent } from './public/contact-section/contact-section.component';
 
 import { ParticlesComponent } from './public/particles/particles.component';
+import { KittuComponent } from './public/kittu/kittu.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ParticlesComponent } from './public/particles/particles.component';
     HeadernavComponent,
     OnlineportalComponent,
     ParticlesComponent,
-    ContactSectionComponent
+    ContactSectionComponent,
+    KittuComponent
   ],
   imports: [
     BrowserModule,
