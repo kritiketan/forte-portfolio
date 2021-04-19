@@ -224,7 +224,8 @@ body {
 @media(max-width:767px){
     .portal-spacing {
         padding: 20px;
-        margin-top: 120px;
+        margin-top: 100px;
+        padding-top: 0px;
     }
     .heading-text{
         font-size: 18px;
@@ -234,6 +235,9 @@ body {
     }
     .body-text{
         font-size: 14px;
+    }
+    .hide-on-mobile{
+        display: none;
     }
 }
 
