@@ -7,6 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class KittuComponent implements OnInit {
 
+  public education=[
+    {
+      institution:"Deakin Unioversity"
+    }
+  ]
+  public work=[]
+
   constructor() { }
 
   ngOnInit(): void {
