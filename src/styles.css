@@ -165,10 +165,10 @@ body {
     color: var(--black-primary);
 }
 
-
+/*Top right bottom left*/
 .portal-spacing {
-    padding-top: 180px;
-    padding-left:180px;
+    
+    padding: 180px 100px 0 100px;
 }
 
 .gen-space{

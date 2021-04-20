@@ -1,13 +1,15 @@
 import { Component, OnInit } from '@angular/core';
-
+import { OnlineportalComponent } from '../onlineportal/onlineportal.component';
+import { LocalStorageService } from '../../services/localstorage/localstorage.service';
 @Component({
-  selector: 'app-kittu',
-  templateUrl: './kittu.component.html',
-  styleUrls: ['./kittu.component.css']
+  selector: 'app-minimal',
+  templateUrl: './minimal.component.html',
+  styleUrls: ['./minimal.component.css']
 })
-export class KittuComponent implements OnInit {
+export class MinimalComponent implements OnInit{
 
-  education = [
+
+  public education = [
     {
         "institution":"Deakin University",
         "area":"Business Analytics",
@@ -30,13 +32,13 @@ export class KittuComponent implements OnInit {
 
 
 
-work=[
+public work=[
   {
       "company": "Fieldd",
       "position": "Product Development Engineer",
       "website": "https://fieldd.co",
       "startDate": "September 2019",
-      "endDate": "present",
+      "endDate": "Present",
       "summary": "",
       "highlights": [
           "Designed and developed cutting-edge features for web and mobile applications",
@@ -74,17 +76,11 @@ work=[
       ]
   }
 ]
-
-
-  constructor() {
-    console.log(this.education)
-    console.log(this.work)
-   }
+  constructor(private localStorageService:LocalStorageService) { }
 
   ngOnInit(): void {
+    // this.localStorageService.set('education',this.education)
+    // this.localStorageService.set('work',this.work)
   }
-
-
-
 
 }

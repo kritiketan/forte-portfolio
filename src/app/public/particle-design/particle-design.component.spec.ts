@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { KittuComponent } from './kittu.component';
+import { ParticleDesignComponent } from './particle-design.component';
 
-describe('KittuComponent', () => {
-  let component: KittuComponent;
-  let fixture: ComponentFixture<KittuComponent>;
+describe('ParticleDesignComponent', () => {
+  let component: ParticleDesignComponent;
+  let fixture: ComponentFixture<ParticleDesignComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ KittuComponent ]
+      declarations: [ ParticleDesignComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(KittuComponent);
+    fixture = TestBed.createComponent(ParticleDesignComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

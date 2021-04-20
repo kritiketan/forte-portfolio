@@ -1,0 +1,157 @@
+<div class="container portal-spacing">
+    <div class="row gen-space">
+        <h1 class="heading-text">
+            👋🏼 Hello 
+          </h1>
+    </div>
+    <div class="row gen-space mt-4">
+        <p class="sub-heading-text">
+        My name is <span class="highlight-text"> Kritiketan</span>, I'm a
+        </p>
+    </div>
+    <div class="row gen-space" style="margin-top: 0;">
+        <p class="sub-heading-text">
+        <span class="highlight-text"> Software Engineer</span> based in <span class="highlight-text">Melbourne 🦘</span> 
+        </p>
+    </div>
+
+    <div class="row gen-space mt-4">
+            <a href="mailto:kritiketan.sharma@outlook.com" target="_blank"> 
+                <i class="fas fa-paper-plane"></i> kritiketan.sharma@outlook.com</a>
+    </div>
+
+    <div class="row gen-space mt-4">
+        
+        <a href="https://www.linkedin.com/in/kritiketan-sharma-2133b5a8/" class="icon" style="color: #2d76b0;">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        
+        <a href="https://kritiketan.medium.com" class="icon icon-space" style="color:var(--black-primary);">
+            <i class="fab fa-medium"></i>
+        </a>
+
+        <a href="https://wa.link/tj8ukb" target="_blank" class="icon icon-space" style="color:green"> 
+            <i class="fab fa-whatsapp"></i> 
+        </a>
+
+        <a href="./../../../assets/Kritiketan Sharma Resume.pdf" download="Kritiketan_Sharma_Resume.pdf" class="icon icon-space">
+            <img src="./assets/favicon.png" height="26px" width="26px" srcset="">
+        </a>
+    </div>
+
+    <div class="row gen-space mt-5 pt-4">
+        <h1 class="sub-heading-text highlight-text">
+            🚀On this page
+        </h1>
+    </div>
+
+
+    <div class="row gen-space mt-3">
+        <div class="col-md-3 body-text body-header-space">
+            👨🏻‍💻<a href="#work">Work Experience</a> 
+        </div>
+        <div class="col-md-2 body-text body-header-space">
+            🎓<a href="#education">Education</a> 
+        </div>
+        <div class="col-md-3 body-text body-header-space hide-on-mobile">
+            💻<a href="#tech">Technologies</a> 
+        </div>
+
+    </div>
+    <section id="work">
+    <div class="row gen-space mt-4">
+        <div class="sub-heading-text body-header-space highlight-text">
+            👨🏻‍💻Work Experience
+        </div>
+    </div>
+    
+    <section *ngFor="let exp of work">
+        <div class="row gen-space mt-2">
+            <div class="body-text body-header-space highlight-text">
+                {{exp.position}} @ <a href="{{exp.website}}" target="_blank">{{exp.company}}</a>
+            </div>
+        </div>
+        <div class="row gen-space body-text">
+            🗓{{exp.startDate}} to {{exp.endDate}}
+        </div>
+        <div class="row gen-space mt-1">
+            <div class="col-md-10">
+                <ul>
+                    <li *ngFor="let point of exp.highlights">
+                        <p class="body-text mt-1">
+                            👉 {{point}}
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+        </section>
+
+    <!--Education-->
+    <section id="education">
+        <div class="row gen-space mt-4">
+            <div class="sub-heading-text body-header-space highlight-text">
+                🎓Education
+            </div>
+        </div>
+        <section *ngFor="let edu of education">
+            <div class="row gen-space mt-2">
+                <div class="body-text body-header-space highlight-text">
+                    {{edu.studyType}} of {{edu.area}} @ <a href="{{edu.institutionUrl}}" target="_blank"> {{edu.institution}},{{edu.location}} </a>
+                </div>
+            </div>
+            <div class="row gen-space body-text">
+                {{edu.startDate}} to {{edu.endDate}}
+            </div>
+        </section>
+    </section>
+
+    <!--Technologies-->
+    <section id="tech" class="hide-on-mobile">
+        <div class="row gen-space mt-4">
+            <div class="sub-heading-text body-header-space highlight-text">
+                💻Technologies
+            </div>
+        </div>
+
+        <div class="row gen-space mt-4">
+            
+            <div class="col-md-3">
+                <i class="fab fa-js-square icon-big" style="color: #EFD81D;"></i>
+            </div>
+            <div class="col-md-3">
+                <i class="fab fa-angular icon-big" style="color: #BD0E2C;"></i>
+            </div>
+            <div class="col-md-3">
+                <i class="fab fa-node icon-big" style="color: #313131;"></i>
+            </div>
+            <div class="col-md-3">
+                <i class="fab fa-html5 icon-big" style="color: #E44D27;"></i>
+            </div>
+        </div>
+
+        <div class="row gen-space mt-1">
+            <div class="col-md-3">
+                <i class="fab fa-aws icon-big" style="color: #232F3E;"></i>
+            </div>
+            <div class="col-md-3">
+                <i class="fab fa-css3-alt icon-big" style="color: #266BDD;"></i>
+            </div>
+            <div class="col-md-3">
+                <i class="fab fa-python icon-big" style="color: #232F3E;"></i>
+            </div>
+            <div class="col-md-3">
+                <img height="80px" width="120px" src="../../../assets/MongoDB-Logo.png">
+            </div>
+        </div>
+    </section>
+</div>
+
+<div class="row mt-5" style="justify-content:center;background-color: lightgoldenrodyellow">
+    <p>
+        <i class="fas fa-code"></i> by <span class="highlight-text" style="color: var(--text-color-primary);">Kittu</span> 
+    </p>  
+</div>
+

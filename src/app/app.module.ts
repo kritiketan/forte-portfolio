@@ -9,7 +9,9 @@ import { OnlineportalComponent } from './public/onlineportal/onlineportal.compon
 import { ContactSectionComponent } from './public/contact-section/contact-section.component';
 
 import { ParticlesComponent } from './public/particles/particles.component';
-import { KittuComponent } from './public/kittu/kittu.component';
+import { MinimalComponent } from './public/minimal/minimal.component';
+import { ParticleDesignComponent } from './public/particle-design/particle-design.component';
+import { CardsDesignComponent } from './public/cards-design/cards-design.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { KittuComponent } from './public/kittu/kittu.component';
     OnlineportalComponent,
     ParticlesComponent,
     ContactSectionComponent,
-    KittuComponent
+    MinimalComponent,
+    ParticleDesignComponent,
+    CardsDesignComponent
   ],
   imports: [
     BrowserModule,
