@@ -39,13 +39,6 @@
         </a>
     </div>
 
-    <div class="row gen-space mt-5 pt-4">
-        <h1 class="sub-heading-text highlight-text">
-            🚀On this page
-        </h1>
-    </div>
-
-
     <div class="row gen-space mt-3">
         <div class="col-md-3 body-text body-header-space">
             👨🏻‍💻<a href="#work">Work Experience</a> 
@@ -65,9 +58,9 @@
         </div>
     </div>
     
-    <section *ngFor="let exp of work">
+    <section *ngFor="let exp of work" style="padding: 20px;margin: 10px;" class="light-card">
         <div class="row gen-space mt-2">
-            <div class="body-text body-header-space highlight-text">
+            <div class="body-text highlight-text">
                 {{exp.position}} @ <a href="{{exp.website}}" target="_blank">{{exp.company}}</a>
             </div>
         </div>
@@ -92,13 +85,13 @@
     <!--Education-->
     <section id="education" *ngIf="education">
         <div class="row gen-space mt-4">
-            <div class="sub-heading-text body-header-space highlight-text">
+            <div class="sub-heading-text highlight-text">
                 🎓Education
             </div>
         </div>
-        <section *ngFor="let edu of education">
+        <section *ngFor="let edu of education" style="padding: 20px;margin: 10px;" class="light-card">
             <div class="row gen-space mt-2">
-                <div class="body-text body-header-space highlight-text">
+                <div class="body-text highlight-text">
                     {{edu.studyType}} of {{edu.area}} @ <a href="{{edu.institutionUrl}}" target="_blank"> {{edu.institution}},{{edu.location}} </a>
                 </div>
             </div>
