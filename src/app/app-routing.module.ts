@@ -8,7 +8,7 @@ import { CardsDesignComponent } from './public/cards-design/cards-design.compone
 
 const routes: Routes = [
   { path: '', component: MinimalComponent },
-  { path:'particles',component:ParticleDesignComponent},
+  { path:'parts',component:ParticleDesignComponent},
   { path:'cards',component:CardsDesignComponent},
   { path: '404', component:  NotfoundComponent},
   // { path: ':slashUrl', component: OnlineportalComponent }

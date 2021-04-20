@@ -53,12 +53,12 @@
     </div>
     <section id="work" *ngIf="work">
     <div class="row gen-space mt-4">
-        <div class="sub-heading-text body-header-space highlight-text">
+        <div class="sub-heading-text highlight-text">
             👨🏻‍💻Work Experience
         </div>
     </div>
     
-    <section *ngFor="let exp of work" style="padding: 20px;margin: 10px;" class="light-card">
+    <section *ngFor="let exp of work" class="light-card">
         <div class="row gen-space mt-2">
             <div class="body-text highlight-text">
                 {{exp.position}} @ <a href="{{exp.website}}" target="_blank">{{exp.company}}</a>
@@ -89,7 +89,7 @@
                 🎓Education
             </div>
         </div>
-        <section *ngFor="let edu of education" style="padding: 20px;margin: 10px;" class="light-card">
+        <section *ngFor="let edu of education" class="light-card">
             <div class="row gen-space mt-2">
                 <div class="body-text highlight-text">
                     {{edu.studyType}} of {{edu.area}} @ <a href="{{edu.institutionUrl}}" target="_blank"> {{edu.institution}},{{edu.location}} </a>
@@ -104,12 +104,12 @@
     <!--Technologies-->
     <section id="tech" class="hide-on-mobile">
         <div class="row gen-space mt-4">
-            <div class="sub-heading-text body-header-space highlight-text">
+            <div class="sub-heading-text highlight-text">
                 💻Technologies
             </div>
         </div>
 
-        <div class="row gen-space mt-4">
+        <div class="row gen-space mt-4 light-card">
             
             <div class="col-md-3">
                 <i class="fab fa-js-square icon-big" style="color: #EFD81D;"></i>
@@ -125,7 +125,7 @@
             </div>
         </div>
 
-        <div class="row gen-space mt-1">
+        <div class="row gen-space mt-1 light-card">
             <div class="col-md-3">
                 <i class="fab fa-aws icon-big" style="color: #232F3E;"></i>
             </div>

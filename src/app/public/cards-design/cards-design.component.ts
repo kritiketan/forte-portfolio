@@ -1,13 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { LocalStorageService } from '../../services/localstorage/localstorage.service';
-
+declare var particlesJS: any; 
 @Component({
   selector: 'app-cards-design',
   templateUrl: './cards-design.component.html',
   styleUrls: ['./cards-design.component.css']
 })
 export class CardsDesignComponent implements OnInit {
-  
   public education = [
     {
         "institution":"Deakin University",
@@ -81,6 +80,7 @@ public work=[
   ) { }
 
   ngOnInit(): void {
+    
     // this.work = this.localStorageService.get('work')
     // this.education = this.localStorageService.get('education')
   }
