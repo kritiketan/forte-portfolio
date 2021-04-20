@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { OnlineportalComponent } from '../onlineportal/onlineportal.component';
 import { LocalStorageService } from '../../services/localstorage/localstorage.service';
-declare var particlesJS: any; 
 @Component({
   selector: 'app-minimal',
   templateUrl: './minimal.component.html',
@@ -80,9 +79,7 @@ public work=[
   constructor(private localStorageService:LocalStorageService) { }
 
   ngOnInit(): void {
-    particlesJS('particles-js', './../../../assets/particles.json',()=>{
-      console.log('callback - particles.js config loaded');
-    } );
+    
     // this.localStorageService.set('education',this.education)
     // this.localStorageService.set('work',this.work)
   }
