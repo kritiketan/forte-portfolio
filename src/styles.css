@@ -306,7 +306,7 @@ body {
   }
 
   #company{
-    background: linear-gradient(to top, #b6b2b6 50%, #7BC6CC 100%);
+    background: linear-gradient(to top, #BE93C5 50%, #7BC6CC 100%);
   }
   
   /* Control the right side */
@@ -339,3 +339,51 @@ body {
     transition: all 0.2s;
     
   }
+
+  .form-control{
+    border-radius: 8px;
+    border-width: 0px 0px 5px 0px; /* top right bottom left */
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+
+}
+
+.input-group-text{
+    border-width: 0px 0px 5px 0px;
+    border-bottom: 1px solid lightgray;
+}
+
+.form-control-border{
+    border-radius: 5px;
+    border-width: 5px 5px 5px 5px; /* top right bottom left */
+    border:2px solid lightgray;
+    padding:20px;
+    font-size: 100px;
+    text-align: center;
+}
+
+.form-control:focus{
+    background-color: #F5F5F8;
+    border-bottom: 1px solid lightgray;
+    border-color: #752CEB;
+    box-shadow: none;
+    outline: 0 none;
+}
+
+.dark-button {
+    background-color: #752CEB;
+    color: #F4F4FC;
+    border-radius: 1.5rem;
+    width: 20%;
+
+    font-size: 16px;
+    padding: 15px;
+}
+
+.light-card{
+    border-radius: 0.7rem;
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 20px .05px rgba(0, 0, 255, .2);
+    padding: 5px 20px 15px;
+    margin: 10px 0;
+}

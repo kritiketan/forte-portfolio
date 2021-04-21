@@ -4,10 +4,3 @@
     background: linear-gradient(to right top, #4c2097 50%, #752CEB 100%);
 }
 
-.light-card{
-    border-radius: 0.7rem;
-    background-color: #FFFFFF;
-    box-shadow: 1px 1px 20px .05px rgba(0, 0, 255, .2);
-    padding: 5px 20px 15px;
-    margin: 10px 0;
-}

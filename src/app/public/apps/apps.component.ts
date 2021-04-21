@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { asapScheduler } from 'rxjs';
+import { ListItem } from '../../models/listItem.model';
 
 @Component({
   selector: 'app-apps',
@@ -8,12 +8,23 @@ import { asapScheduler } from 'rxjs';
 })
 
 export class AppsComponent implements OnInit {
-  // public listItem:ListItem;
-  public inputList=[]
+  public listItems= [{data:''}];
+  public showList = false;
+  public cart = [''];
   constructor() { }
 
-  ngOnInit(): void {
-    // this.inputList.push(this.listItem)
+  ngOnInit(): void {}
+
+  addListItem(){
+    this.listItems.push({data:''})
+  }
+
+  deleteItem(index:Number){
+    console.log(index);
+  }
+
+  addToCard(item:any){
+    this.cart.push("1 X "+item);
   }
 
 }

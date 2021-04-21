@@ -1,3 +1,3 @@
 export class ListItem{
-    modelValue:String;
+    'entryPoints':Array<any>;
   }

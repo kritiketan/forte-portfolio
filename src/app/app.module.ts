@@ -7,7 +7,7 @@ import { NotfoundComponent } from './public/notfound/notfound.component';
 import { HeadernavComponent } from './public/headernav/headernav.component';
 import { OnlineportalComponent } from './public/onlineportal/onlineportal.component'
 import { ContactSectionComponent } from './public/contact-section/contact-section.component';
-
+import { FormsModule } from '@angular/forms';
 import { ParticlesComponent } from './public/particles/particles.component';
 import { MinimalComponent } from './public/minimal/minimal.component';
 import { ParticleDesignComponent } from './public/particle-design/particle-design.component';
@@ -33,6 +33,7 @@ import { AppsComponent } from './public/apps/apps.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
