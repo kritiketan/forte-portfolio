@@ -6,12 +6,14 @@ import { MinimalComponent } from './public/minimal/minimal.component';
 import { ParticleDesignComponent } from './public/particle-design/particle-design.component';
 import { CardsDesignComponent } from './public/cards-design/cards-design.component';
 import { HalfdesignComponent } from './public/halfdesign/halfdesign.component';
+import { AppsComponent } from './public/apps/apps.component';
 
 const routes: Routes = [
-  { path: '', component: MinimalComponent },
+  { path: '', component: HalfdesignComponent },
   { path:'parts',component:ParticleDesignComponent},
   { path:'cards',component:CardsDesignComponent},
-  { path:'half',component:HalfdesignComponent },
+  { path:'min',component:MinimalComponent},
+  { path:'apps',component:AppsComponent},
   { path: '404', component:  NotfoundComponent},
   // { path: ':slashUrl', component: OnlineportalComponent }
   

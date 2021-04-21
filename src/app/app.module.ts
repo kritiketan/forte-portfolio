@@ -13,6 +13,7 @@ import { MinimalComponent } from './public/minimal/minimal.component';
 import { ParticleDesignComponent } from './public/particle-design/particle-design.component';
 import { CardsDesignComponent } from './public/cards-design/cards-design.component';
 import { HalfdesignComponent } from './public/halfdesign/halfdesign.component';
+import { AppsComponent } from './public/apps/apps.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { HalfdesignComponent } from './public/halfdesign/halfdesign.component';
     MinimalComponent,
     ParticleDesignComponent,
     CardsDesignComponent,
-    HalfdesignComponent
+    HalfdesignComponent,
+    AppsComponent
   ],
   imports: [
     BrowserModule,

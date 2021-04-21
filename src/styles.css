@@ -279,3 +279,63 @@ body {
     font-weight: 600;
 }
 
+/* Split the screen in half */
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* Control the left side */
+  .left {
+    left: 0;
+    /* background: linear-gradient(to top, #4c2097 50%, #8141e7 100%); */
+    /* linear-gradient(to right top, #4c2097 50%, #752CEB 100%); */
+  }
+
+  .light-grady{
+    background: linear-gradient(to top, #7BC6CC 10%, #b6b2b6 100%);
+  }
+
+  #grady{
+    background: linear-gradient(to top, #BE93C5 50%, #7BC6CC 100%);
+  }
+
+  #company{
+    background: linear-gradient(to top, #b6b2b6 50%, #7BC6CC 100%);
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+    background-color: #f4f4f4;
+    /* background: linear-gradient(to top, #BE93C5 50%, #7BC6CC 100%); */
+  }
+  
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  /* Style the image inside the centered container, if needed */
+  .centered img {
+    width: 150px;
+    border-radius: 50%;
+  }
+
+  a:hover{
+    color: #752CEB;
+    font-weight: 600;
+    transform: scale(4);   
+    font-size: 30px;
+    transition: all 0.2s;
+    
+  }
