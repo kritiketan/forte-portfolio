@@ -331,14 +331,14 @@ body {
     border-radius: 50%;
   }
 
-  a:hover{
+  /* a:hover{
     color: #752CEB;
     font-weight: 600;
     transform: scale(4);   
     font-size: 30px;
     transition: all 0.2s;
     
-  }
+  } */
 
   .form-control{
     border-radius: 8px;
@@ -386,4 +386,26 @@ body {
     box-shadow: 1px 1px 20px .05px rgba(0, 0, 255, .2);
     padding: 5px 20px 15px;
     margin: 10px 0;
+}
+
+.apps-icon{
+    border-radius: 0.7rem;
+    background-color: #FFFFFF;
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 1px 1px 10px .05px lightgrey;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.apps-icon:hover{
+    background-color: #be92c4;
+    font-weight: 600;
+    transform: scale(1.1);   
+    font-size: 30px;
+    transition: all 0.2s;
+    cursor: pointer;
 }
