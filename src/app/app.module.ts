@@ -16,7 +16,6 @@ import { HalfdesignComponent } from './public/halfdesign/halfdesign.component';
 import { AppsComponent } from './public/apps/apps.component';
 import { HalfAppStyleComponent } from './public/half-app-style/half-app-style.component';
 import { MystoryComponent } from './public/mystory/mystory.component';
-
 @NgModule({
   declarations: [
     AppComponent,
