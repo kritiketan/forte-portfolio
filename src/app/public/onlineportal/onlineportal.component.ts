@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import  { PortfolioService } from './../../services/portfolio.service';
+import  { PortfolioService } from './../../services/portfolio/portfolio.service';
 import { Location } from "@angular/common";
 import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 import { User } from '../../models/user.model';

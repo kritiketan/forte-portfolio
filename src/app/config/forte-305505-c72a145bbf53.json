@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "forte-305505",
+  "private_key_id": "c72a145bbf534081c78168cf3410fdcdda822a8c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCiPodXAO4yxh/+\nSoOz0/Sj10USVQGN5ddZliR7fwZe2uFYqpSlmHhCiK3/VW0dvBkUD+f44KoRvair\nmJN/8s3tjDkMFycMox9WSO1NKuNaZslnXD8C1z7tTzo0VTMBzLXtx3RveuzN9Fva\nEkJFnLakXnH104tnHummaovC97z7h4P9NcoC+WrexwMuc0tTmfLom77+Yn9IPCX+\nER1aRDOE94lGckefnhWhg0w3zXU0GiKVGDGkn3q3BOGX7EVGD3Lk+0i4o1lzmXhC\nVvLp7oLyRcSWwQNmD2s9w34HZ5zQl+V36/P3sIheRk0ArRhWQNCGGZvrg6grUwks\nCDW40DiVAgMBAAECggEAC+RAYDihvNf3tVg50f7pke6v0dmoLQHZKGhQUTrsuRwa\n4zhRf9eujNXexvW4czL7tZQ64Ot6m6VGjRk4Smr9+/jIn6G8y3jTTaw3tG29zzz0\nax6AQdGL+7HQZtCN1gZumTiCyL7+R1QvPUsUT2zemCqR+L4iHBNQddGeX9JvqBHX\nSxU9IiPQ5mdBK43UKkU8XqVE7zG2enDz+hsHLh/4I72AZBSk2GsJfuDAwiuyheL1\nafwt4dXhRNVnzYqtB9fsiGBZUr3fQdtRmZDWvILETx8bRGpFDmBLcYowI0uKprax\njU/dE+Y8WTBQs4vC+oZHUEy2mnpuyvp46aClwJ7tCwKBgQDVZTlU/XZqcEz8oe7+\n/Ao8v2TXNeu/VtI+H6aBr2MRATeZ2aBfH6gWY67aak0KWJ6d9TDDF5IlDwj2Lgoq\n3jIQUFIBvw4PJAbvC42DU111sbiJVa1S1r5KvSb+VhCxIYEXh1Acgd0TtV7qm8jM\nlZiQB8quBf6kh3xcBdTcRfLrlwKBgQDCou+8H3Ey/w5rjVfJIDGWB98SZNlBYxgu\n2psJmxinUDTbONsh0JM4Z4UAeeKMgiKiLe3H7M7r1CEVz+qnLpov9it3Cq4m9uLo\nB/G8r8ZUReK4wvQdPwKUnPvOdn4sxQBac1FlJ//WOCaSIG/fcWUHkhsUNIAESMVV\ntt1/l94yswKBgHRCXrbgFDivEDJ/Is9Gj2lDOPRLCzJGYeq4oaV74TQtfpZSS54n\niBMSofua+HgPifMy1ysi11tbUp2UvbNXNN1QdS1AYq97CFAJ8kI/E+cAOTKRPAmq\ntyfO38SnLRbj0wn3jXzKf6CyKpEU6JQVWHX32MNwvqfyrJ0SDEMp1MvnAoGANDmm\nHBNPu4BGrUM6x+PUik5IY9YdmXbueTv9F8G/Br31wNDrs5IUvrDANlV+HXeZtWyf\nfeKjzxGXYxPsAbn2c2IZXZLHEfty/RGMorWDgP9Ti4H8IJDUr23D/y06Q+cEZkDF\nGWB3PFLKvrDnc8wocLSagXxo0T15fbtYibEFVRMCgYBSZ+bWrRWYA8jkn2HxcTbQ\nFC8FFUmoNzAXWqRRzKGf7I6SzuwC+PO1I7BRCWea6MksFCfAPEG3MVXRMdYGIXXZ\nf8btOrAqRc3THD2PARZUdvO/iQOVfIxsQMARWoF5nbNP5gsKP2t2Akd+eOISbWNU\nSkVGPmFMGGCCrRLGhEwE6Q==\n-----END PRIVATE KEY-----\n",
+  "client_email": "forte-305505@appspot.gserviceaccount.com",
+  "client_id": "100420627223650525022",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/forte-305505%40appspot.gserviceaccount.com"
+}

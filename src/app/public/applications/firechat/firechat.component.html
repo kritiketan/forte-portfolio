@@ -1,0 +1,14 @@
+<div class="container-fluid centered" style="padding-top: 100px">
+
+    <section class="row row-center" name="loginSection" *ngIf="!isLoggedin">
+        <div>
+            <button class="btn btn primary border" (click)="signinWithGoogle()">
+                Login with google
+            </button>
+        </div>
+    </section>
+
+    <section class="row row-center" name="chatSection" *ngIf="isLoggedin">
+        chats
+    </section>
+</div>
