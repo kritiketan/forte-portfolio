@@ -1,8 +1,14 @@
+<div class="header-band">
+    <p class="row-center highlight-text mt-2"> 
+        <img src="./assets/favicon.png" width="38px" height="38px"/>
+        
+    </p> 
+</div>
 <div class="container-fluid centered" style="padding-top: 100px" *ngIf="!isLoggedin">
 
     <section class="row row-center" name="loginSection">
         <div>
-            <button class="btn btn primary border" (click)="signinWithGoogle()">
+            <button class="btn btn-primary border" (click)="signinWithGoogle()">
                 Login with google
             </button>
         </div>
@@ -11,60 +17,35 @@
    
 </div>
 
-<div class="container-fluid"  style="padding-top: 50px;justify-content: center;align-items: center;">
+<div class="container-fluid"  style="padding-top: 50px;justify-content: center;align-items: center;" *ngIf="isLoggedin">
     
-    <section id="heading" class="row row-center heading-text">
-        Chats
-    </section>
     <section id="userProfile" class="row row-center">
-        <div class="col-md-4 light-card">
-            <p class="highlight-text">User profile</p> 
-            <p class="highlight-text">{{this.user ? this.user.displayName : ''}}</p>
-            <p class="highlight-text">{{this.user ? this.user.email : ''}}</p>
+        <div class='mt-2'>
             <p>
-                <img src="{{this.user.photoURL}}" alt="user-image">
+                <img class='logo-img' src="{{this.user.photoURL}}" alt="user-image">
             </p>
-            
-            <button class="btn btn primary border mt-5" (click)="signOut()">Sign out</button>
+            <p class="highlight-text mt-1">{{this.user ? this.user.displayName : ''}}</p>
+            <p>{{this.user ? this.user.email : ''}}</p>
+            <button class="btn btn-primary border mt-2" (click)="signOut()">Sign out</button>
         </div>
     </section>
 
-    <section id="chatRoom" class="row row-center">
-
-        <div class="col-md-5 mx-1" id="chatList" class="light-card" style="width: 250px;height: 250px;margin: 20px;">
-
-            <div class="row row-center sub-heading-text" id="addChat">
-                <!--Add new chat-->
-                Add chat
-            </div>
-            <br>
-            <div class="row" id="listChats">
-                <ul>
-                    <li>Chat one</li>
-                    <li>Chat two</li>
-                    <li>Chat three</li>
-                </ul>
-            </div>
-
+    <div class="row row-center">
+        <div class="col-md-4">
+            <hr style="color: lightgoldenrodyellow;">
         </div>
+        
+    </div>
 
-        <div class="col-md-5 mx-1" id="chatarea" class="light-card" style="width: 250px;height: 250px;margin: 20px;">
+    <div class="row row-center mt-3 highlight-text">
+        Lets get to know you:
+    </div>
 
-            <div class="row row-center sub-heading-text" id="addChat">
-                <!--Add new chat-->
-                Add chat details
-            </div>
-            <br>
-            <div class="row" id="chatMessages"><!--*ngFor=""-->
-                <p>Messages</p> 
-                <ul>
-                    <li>M one</li>
-                    <li>M two</li>
-                    <li>M three</li>
-                </ul>
-            </div>
+    <div >
+        <div class="row row-center mt-3" *ngFor="let item of questions">
+             <p class='sub-heading-text highlight-text'>{{item.question}}</p> 
         </div>
-
-    </section>
+    </div>
+    
 
 </div>

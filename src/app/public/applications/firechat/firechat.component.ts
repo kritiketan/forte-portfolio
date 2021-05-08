@@ -13,6 +13,16 @@ import { LocalStorageService } from '../../../services/localstorage/localstorage
 export class FirechatComponent implements OnInit {
   public isLoggedin:Boolean=false;
   public user:any={}
+  public questions=[{
+    question:"When you is your birthday?",
+    answer:''
+  },{
+    question:"What was your bachelors major?",
+    answer:''
+  },{
+    question:"What are you working on right now?",
+    answer:''
+  }];
   constructor(
     private localStorageService:LocalStorageService,
     private firebaseActionsService:FirebaseactionsService
@@ -39,6 +49,7 @@ export class FirechatComponent implements OnInit {
 
   signOut(){
     this.firebaseActionsService.signOut()
+    this.isLoggedin = false;
   }
 
 }
