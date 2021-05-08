@@ -24,14 +24,13 @@ import { FirechatComponent } from './public/applications/firechat/firechat.compo
 import { FirebaseactionsService } from './services/firebase/firebaseactions.service';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDkrm08aGGDSWUW2mjzo9LAohLssDFE9cE",
-  authDomain: "forte-305505.firebaseapp.com",
-  databaseURL: "https://forte-305505-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId: "forte-305505",
-  storageBucket: "forte-305505.appspot.com",
-  messagingSenderId: "618124719662",
-  appId: "1:618124719662:web:33b0022e46283893d491bf",
-  platformId:''
+  apiKey: "AIzaSyBZAZl3zHtiZM6TuhtSfMQkneGqrhIqb08",
+  authDomain: "forte-react.firebaseapp.com",
+  projectId: "forte-react",
+  storageBucket: "forte-react.appspot.com",
+  messagingSenderId: "270256770633",
+  appId: "1:270256770633:web:d92000af929ca1ebc77998",
+  measurementId: "G-3QSB5WPQVS"
 };
 @NgModule({
   declarations: [

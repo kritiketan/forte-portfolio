@@ -19,6 +19,7 @@ export class FirebaseactionsService {
       /* Saving user data in localstorage when 
     logged in and setting up null when logged out */
     this.afAuth.authState.subscribe(user => {
+      debugger
       if (user) {
         this.userData = user;
         localStorage.setItem('user', JSON.stringify(this.userData));
@@ -29,11 +30,10 @@ export class FirebaseactionsService {
   }
 
   googleLogin(){
-    debugger
+    
     const provider = new firebase.auth.GoogleAuthProvider()
     firebase.auth().signInWithPopup(provider).then((result)=>{
-      console.log(result)
-      console.log(result.user)
+        
     })
     
   }
