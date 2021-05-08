@@ -1,6 +1,6 @@
-<div class="container-fluid centered" style="padding-top: 100px">
+<div class="container-fluid centered" style="padding-top: 100px" *ngIf="!isLoggedin">
 
-    <section class="row row-center" name="loginSection" *ngIf="!isLoggedin">
+    <section class="row row-center" name="loginSection">
         <div>
             <button class="btn btn primary border" (click)="signinWithGoogle()">
                 Login with google
@@ -8,7 +8,63 @@
         </div>
     </section>
 
-    <section class="row row-center" name="chatSection" *ngIf="isLoggedin">
-        chats
+   
+</div>
+
+<div class="container-fluid"  style="padding-top: 50px;justify-content: center;align-items: center;">
+    
+    <section id="heading" class="row row-center heading-text">
+        Chats
     </section>
+    <section id="userProfile" class="row row-center">
+        <div class="col-md-4 light-card">
+            <p class="highlight-text">User profile</p> 
+            <p class="highlight-text">{{this.user ? this.user.displayName : ''}}</p>
+            <p class="highlight-text">{{this.user ? this.user.email : ''}}</p>
+            <p>
+                <img src="{{this.user.photoURL}}" alt="user-image">
+            </p>
+            
+            <button class="btn btn primary border mt-5" (click)="signOut()">Sign out</button>
+        </div>
+    </section>
+
+    <section id="chatRoom" class="row row-center">
+
+        <div class="col-md-5 mx-1" id="chatList" class="light-card" style="width: 250px;height: 250px;margin: 20px;">
+
+            <div class="row row-center sub-heading-text" id="addChat">
+                <!--Add new chat-->
+                Add chat
+            </div>
+            <br>
+            <div class="row" id="listChats">
+                <ul>
+                    <li>Chat one</li>
+                    <li>Chat two</li>
+                    <li>Chat three</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="col-md-5 mx-1" id="chatarea" class="light-card" style="width: 250px;height: 250px;margin: 20px;">
+
+            <div class="row row-center sub-heading-text" id="addChat">
+                <!--Add new chat-->
+                Add chat details
+            </div>
+            <br>
+            <div class="row" id="chatMessages"><!--*ngFor=""-->
+                <p>Messages</p> 
+                <ul>
+                    <li>M one</li>
+                    <li>M two</li>
+                    <li>M three</li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+
 </div>
