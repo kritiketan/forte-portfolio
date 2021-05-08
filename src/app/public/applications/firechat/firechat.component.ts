@@ -17,28 +17,28 @@ export class FirechatComponent implements OnInit {
     private localStorageService:LocalStorageService,
     private firebaseActionsService:FirebaseactionsService
   ) {
-      // this.getAuthenticatedUser();
+    this.firebaseActionsService.getFireUserAuthState();
    }
 
   ngOnInit(): void {
-    
+    this.user = this.localStorageService.get('fireuser');
+    if(this.user != ''){
+      this.isLoggedin = true;
+    }
   }
 
   signinWithGoogle(){
-    this.firebaseActionsService.googleLogin()
+    this.firebaseActionsService.googleLogin().then(()=>{
+        this.user = this.localStorageService.get('fireuser');
+        this.isLoggedin = true;
+    });
+    
+    
+    
   }
-  
-  // getAuthenticatedUser(){
-  //   this.user = this.angularFireAuth.authState.subscribe(user => {
-  //     if(user){
-  //       this.user = user;
-  //       this.isLoggedin = true;
-  //       this.localStorageService.set('user',JSON.stringify(this.user));
-  //     }else{
-  //       this.localStorageService.set('user',null);
-        
-  //     }
-  //   })
-  // }
+
+  signOut(){
+    this.firebaseActionsService.signOut()
+  }
 
 }
