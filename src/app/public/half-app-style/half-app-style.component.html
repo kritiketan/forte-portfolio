@@ -1,7 +1,9 @@
 <div class="container-fluid" style="padding-top: 100px">
   <div
     class="row row-center">
-    <div class="split left gradient-bg">
+
+    <!--LEFT-->
+    <div class="split left gradient-bg" name="left">
       <div class="centered">
         <a
           href="./../../../assets/Kritiketan Sharma Resume.pdf"
@@ -16,8 +18,12 @@
         </h2>
       </div>
     </div>
+    <!--LEFT-->
 
+    <!--RIGHT-->
     <div class="split right">
+
+      <!--Mobile-->
       <div class="container-fluid d-md-none">
         <div class="row mb-1 row-center">
           <a
@@ -36,9 +42,14 @@
             <hr style="color: lightgoldenrodyellow;">
         </div>
        </div>
-       
       </div>
+      <!--Mobile-->
+
+
       <div class="container-fluid">
+
+        <!--ROW-->
+        <span name="r1">
           <div class="row mb-4 row-center">
               <div class="sub-heading-text highlight-text">
                 Socials
@@ -46,35 +57,74 @@
               
           </div>
         <div class="row m-0 row-center">
+          
           <div class="col-md-2 apps-icon">
             <a
               href="https://www.linkedin.com/in/kritiketan-sharma-2133b5a8/"
               class="icon"
               style="color: #2d76b0"
             >
-              <i class="fab fa-linkedin"></i>
+              <i class="fab fa-linkedin" style="font-size: 40px;"></i> <br>
+              <p style="font-size: 12px;">Linkedin</p>
             </a>
           </div>
+          
           <div class="col-md-2 apps-icon hide-on-mobile">
             <a
               href="https://kritiketan.medium.com"
               class="icon"
               style="color: var(--black-primary)">
-              <i class="fab fa-medium"></i>
+              <i class="fab fa-medium" style="font-size: 40px;"></i>
+              <p style="font-size: 12px;">Medium</p>
             </a>
           </div>
           <div class="col-md-2 apps-icon">
             <a href="https://wa.link/tj8ukb" target="_blank" class="icon" style="color:green"> 
-                <i class="fab fa-whatsapp"></i> 
+                <i class="fab fa-whatsapp" style="font-size: 40px;"></i> 
+                <p style="font-size: 12px;">Whatsapp</p>
             </a>
           </div>
           <div class="col-md-2 apps-icon">
             <a href="./../../../assets/Kritiketan Sharma Resume.pdf" download="Kritiketan_Sharma_Resume.pdf" class="icon">
-                <i class="fas fa-download"></i>
+                <i class="fas fa-download" style="font-size: 40px;"></i>
+                <p style="font-size: 12px;">Resume</p>
             </a>
           </div>
         </div>
-
+      </span>
+      <!--ROW-->
+      <span name="r2">
+        <div class="row row-center">
+            <div class="col-md-12">
+                <hr style="color: lightgoldenrodyellow;">
+            </div>
+            
+        </div>
+        <div class="row mb-4" style="justify-content: center;
+          align-items: center;
+          text-align: center;">
+              <div class="sub-heading-text highlight-text">
+                Designing
+              </div>
+              
+          </div>
+        <div
+          class="row m-0"
+          style="
+            justify-content: center;
+            align-items: center;
+            text-align: center;">
+            
+              <div class="col-md-2 apps-icon highlight-text" [routerLink]="['/min']">
+                <p>Minimal</p>
+              </div>
+              <div class="col-md-2 apps-icon highlight-text" [routerLink]="['/cards']">
+                <p>Cards</p>
+              </div>
+        </div>
+        </span>
+        <!--ROW-->
+        <span name="r3">
         <div class="row row-center">
             <div class="col-md-12">
                 <hr style="color: lightgoldenrodyellow;">
@@ -97,13 +147,18 @@
             text-align: center;">
             
               <div class="col-md-2 apps-icon highlight-text" >
-                <p>My story</p>
+                <p>My story *coming soon*</p>
               </div>
-              <div class="col-md-2 apps-icon highlight-text" [routerLink]="['/chat']">
-                <p>Chat app</p>
+
+              <div class="col-md-2 apps-icon highlight-text">
+                <p>🔥 Chat app *coming soon*</p>
               </div>
         </div>
+        </span>
+
       </div>
     </div>
+    <!--RIGHT-->
+
   </div>
 </div>

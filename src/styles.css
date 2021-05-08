@@ -375,6 +375,7 @@ body {
     display: flex;
 }
 
+
 .apps-icon:hover{
     font-weight: 600;
     transform: translateY(-5px);
@@ -411,4 +412,8 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+a{
+    text-decoration: none !important;
 }
