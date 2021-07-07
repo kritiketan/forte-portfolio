@@ -446,7 +446,7 @@ class HungryjerryComponent {
 HungryjerryComponent.ɵfac = function HungryjerryComponent_Factory(t) { return new (t || HungryjerryComponent)(); };
 HungryjerryComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HungryjerryComponent, selectors: [["app-hungryjerry"]], hostBindings: function HungryjerryComponent_HostBindings(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("keyup", function HungryjerryComponent_keyup_HostBindingHandler($event) { return ctx.onKeyDown($event); }, false, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵresolveDocument"]);
-    } }, decls: 58, vars: 7, consts: [[1, "container-fluid", 2, "margin-top", "50px"], [1, "row", "row-center"], [1, "col-md-3"], [1, "sub-heading-text", "highlight-text", "mt-1"], [2, "color", "#EA1105"], [1, "col-md-7"], [1, "col-md-5"], [1, "sub-heading-text", "highlight-text"], [1, "row", "row-center", "mt-3"], ["src", "./../../../../assets/images/HungryJerry.png", "alt", "", "srcset", "", "id", "bannerImg", 2, "width", "75%"], [1, "m-3"], [1, "col-md-12"], [2, "color", "lightgoldenrodyellow"], [1, "m-2", "highlight-text"], [1, "m-2"], [1, "m-1"], [1, "input-group", "flex-nowrap", "mt-2"], [1, "input-group-text"], ["type", "number", 1, "form-control", 3, "ngModel", "disabled", "ngModelChange"], [1, "input-group", "flex-nowrap", "mt-1"], ["type", "button", 1, "btn", "btn-success", "m-3", 3, "disabled", "click"], ["type", "button", 1, "btn", "btn-primary", "m-3", 3, "click"], ["id", "gridTable"]], template: function HungryjerryComponent_Template(rf, ctx) { if (rf & 1) {
+    } }, decls: 58, vars: 7, consts: [[1, "container-fluid", 2, "margin-top", "50px"], [1, "row", "row-center"], [1, "col-md-3"], [1, "sub-heading-text", "highlight-text", "mt-1"], [2, "color", "#EA1105"], [1, "col-md-7"], ["src", "./../../../../assets/images/HungryJerry.png", "alt", "", "srcset", "", "id", "bannerImg", 2, "width", "75%"], [1, "row", "row-center", "mt-3"], [1, "col-md-5"], [1, "sub-heading-text", "highlight-text"], [1, "m-3"], [1, "col-md-12"], [2, "color", "lightgoldenrodyellow"], [1, "m-2", "highlight-text"], [1, "m-2"], [1, "m-1"], [1, "input-group", "flex-nowrap", "mt-2"], [1, "input-group-text"], ["type", "number", 1, "form-control", 3, "ngModel", "disabled", "ngModelChange"], [1, "input-group", "flex-nowrap", "mt-1"], ["type", "button", 1, "btn", "btn-success", "m-3", 3, "disabled", "click"], ["type", "button", 1, "btn", "btn-primary", "m-3", 3, "click"], ["id", "gridTable"]], template: function HungryjerryComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
@@ -460,20 +460,20 @@ HungryjerryComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "div", 5);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "div", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "div", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "p", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "img", 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "div", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "p", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "div", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "div", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "p", 9);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "div", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](18, "img", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "p", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -546,11 +546,11 @@ HungryjerryComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } if (rf & 2) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](15);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("Remaining \uD83E\uDDC0 : ", ctx.remainingCheese, "");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("Steps \uD83D\uDC3E : ", ctx.stepsTakenByJerry, "");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](29);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](26);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngModel", ctx.rows)("disabled", ctx.enableTable);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngModel", ctx.cols)("disabled", ctx.enableTable);
