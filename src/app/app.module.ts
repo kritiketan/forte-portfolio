@@ -17,11 +17,12 @@ import { MinimalComponent } from './public/minimal/minimal.component';
 import { ParticleDesignComponent } from './public/particle-design/particle-design.component';
 import { CardsDesignComponent } from './public/cards-design/cards-design.component';
 import { HalfdesignComponent } from './public/halfdesign/halfdesign.component';
-import { AppsComponent } from './public/apps/apps.component';
+
 import { HalfAppStyleComponent } from './public/half-app-style/half-app-style.component';
 import { MystoryComponent } from './public/mystory/mystory.component';
 import { FirechatComponent } from './public/applications/firechat/firechat.component';
 import { FirebaseactionsService } from './services/firebase/firebaseactions.service';
+import { HungryjerryComponent } from './public/applications/hungryjerry/hungryjerry.component';
 
 const firebaseConfig = {
   apiKey: "AIzaSyBZAZl3zHtiZM6TuhtSfMQkneGqrhIqb08",
@@ -44,10 +45,10 @@ const firebaseConfig = {
     ParticleDesignComponent,
     CardsDesignComponent,
     HalfdesignComponent,
-    AppsComponent,
     HalfAppStyleComponent,
     MystoryComponent,
-    FirechatComponent
+    FirechatComponent,
+    HungryjerryComponent
   ],
   imports: [
     BrowserModule,

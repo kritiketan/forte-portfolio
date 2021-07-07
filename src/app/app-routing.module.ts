@@ -6,19 +6,21 @@ import { MinimalComponent } from './public/minimal/minimal.component';
 import { ParticleDesignComponent } from './public/particle-design/particle-design.component';
 import { CardsDesignComponent } from './public/cards-design/cards-design.component';
 import { HalfdesignComponent } from './public/halfdesign/halfdesign.component';
-import { AppsComponent } from './public/apps/apps.component';
+
 import { HalfAppStyleComponent } from './public/half-app-style/half-app-style.component';
 import { FirechatComponent } from './public/applications/firechat/firechat.component';
+import { HungryjerryComponent } from './public/applications/hungryjerry/hungryjerry.component';
+
 
 
 const routes: Routes = [
   { path:'', component:HalfAppStyleComponent },
   { path: 'chat', component: FirechatComponent },
+  { path: 'hungryJerry', component:  HungryjerryComponent},
   { path: 'half', component: HalfdesignComponent },
   { path:'parts',component:ParticleDesignComponent},
   { path:'cards',component:CardsDesignComponent},
   { path:'min',component:MinimalComponent},
-  { path:'apps',component:AppsComponent},
   { path: '404', component:  NotfoundComponent},
   { path: '',redirectTo:'',pathMatch:'full' }
   

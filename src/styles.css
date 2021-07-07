@@ -339,7 +339,7 @@ body {
 }
 
 .form-control:focus{
-    background-color: #F5F5F8;
+    /* background-color: #F5F5F8; */
     border-bottom: 1px solid lightgray;
     border-color: #752CEB;
     box-shadow: none;

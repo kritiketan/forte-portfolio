@@ -1,0 +1,92 @@
+<div class="container-fluid" style="margin-top: 50px;">
+
+    <div class="row row-center">
+        <div class="col-md-3">
+            <p class="sub-heading-text highlight-text mt-1">Welcome to <span style="color: #EA1105;">Hungry Jerry's</span>  world 🐭</p> 
+        </div>
+        <div class="col-md-7">
+            <div class="row row-center">
+                <div class="col-md-5">
+                    <p class="sub-heading-text highlight-text">Remaining 🧀 : {{remainingCheese}}</p>
+                </div>
+    
+                <div class="col-md-5">
+                    <p class="sub-heading-text highlight-text">Steps 🐾 : {{stepsTakenByJerry}}</p>
+                </div>
+            </div>
+            <div class="row row-center mt-3">
+                <div >
+                    <img src="./../../../../assets/images/HungryJerry.png" style="width: 75%;" alt="" srcset="" id="bannerImg">
+                </div>
+            </div>
+            
+            
+            
+        </div>
+    </div>
+
+    <div class="row row-center">
+        <div class="col-md-3">
+
+            <div class="row row-center">
+                
+                
+                <p class="m-3"> You have the responsibility of feeding Jerry today. He is a nice mouse for the most part but 
+                    can get really cranky when hungry. 
+                </p> 
+                
+                    <div class="col-md-12">
+                      <hr style="color: lightgoldenrodyellow;">
+                  </div>
+                 
+                
+                <p class="m-2 highlight-text"> A few things to note about the game:</p>
+                
+                <p class="m-2"> 🐁 He loves muching on 🧀</p> <br>
+                <p class="m-1"> 🐁 His burrow is a M(rows) X N(columns) matrix</p> <br>
+                <p class="m-1"> 🐁 His food is spread across his entire burrow by Tom 😼, and you have to help him eat them all</p> <br>
+                <p class="m-1"> 🐁 You can use arrow keys (↑ ↓ ← →) to move around the grid</p>
+                
+                <div class="col-md-12">
+                    <hr style="color: lightgoldenrodyellow;">
+                </div>
+                <!--Input fields-->
+                <div class="input-group flex-nowrap mt-2" >
+                    <span class="input-group-text">M (Rows)</span>
+                    <input type="number" class="form-control" [(ngModel)] = 'rows' [disabled] = "enableTable">
+                </div>
+
+                <div class="input-group flex-nowrap mt-1">
+                    <span class="input-group-text">N (Colns)</span>
+                    <input type="number" class="form-control" [(ngModel)] = 'cols' [disabled] = "enableTable">
+                </div>
+                
+                <!--Input fields end-->
+                
+                <!--Buttons-->  
+                <div >
+                    <button type="button" class="btn btn-success m-3" (click)="start()" [disabled] = "enableTable">Start</button>
+                    <button type="button" class="btn btn-primary m-3" (click)="reset()">Reset</button>
+                </div>
+                
+                <!--Buttons end-->
+
+            </div>
+
+
+
+        </div>
+    
+        <div class="col-md-7">
+            <div class="row row-center">
+                <!--The grid-->
+                
+                <div>    
+                    <table id="gridTable">
+            
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
