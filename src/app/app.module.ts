@@ -23,6 +23,8 @@ import { MystoryComponent } from './public/mystory/mystory.component';
 import { FirechatComponent } from './public/applications/firechat/firechat.component';
 import { FirebaseactionsService } from './services/firebase/firebaseactions.service';
 import { HungryjerryComponent } from './public/applications/hungryjerry/hungryjerry.component';
+import { SortsComponent } from './public/applications/sorts/sorts.component';
+import { StackComponent } from './public/applications/stack/stack.component';
 
 const firebaseConfig = {
   apiKey: "AIzaSyBZAZl3zHtiZM6TuhtSfMQkneGqrhIqb08",
@@ -48,7 +50,9 @@ const firebaseConfig = {
     HalfAppStyleComponent,
     MystoryComponent,
     FirechatComponent,
-    HungryjerryComponent
+    HungryjerryComponent,
+    SortsComponent,
+    StackComponent
   ],
   imports: [
     BrowserModule,

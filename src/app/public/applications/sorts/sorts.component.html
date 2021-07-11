@@ -1,0 +1,114 @@
+<div class="container" style="margin-top: 50px;">
+
+    <div class="row row-center">
+        <div class="col-md-3">
+            <p class="sub-heading-text highlight-text mt-1">🌏 Sorting Algos 🌏</p> 
+        </div>
+    </div>
+
+    <!--About the page: show in an hidden state like a tag always-->
+    <div class="row row-center mt-4" id="aboutPage">
+
+        <!--Button-->
+        <div class="col-md-2" *ngIf="!showAbout" (click)="showAbout = !showAbout">
+            <p class="tag highlight-text" style="background-color:#0BC371;">#about</p> 
+        </div>
+
+        <div class="col-md-10" id="description" *ngIf="showAbout">
+            <div style="text-align: right;">
+             <i class="far fa-times-circle" style="color: red;cursor: pointer;" (click)="showAbout = !showAbout"></i>
+            </div>
+        <!--Intro-->
+            <p class="mt-2">Are you a software engineer? What is your stack? And that loaded question right there can trigger <i>lengthy</i> "discussions". 
+            Sadly, there is no such language or framework quiet like a silver bullet.To solve this problems of plenty lets borrow <a href="https://www.digit.in/features/science-and-technology/the-origin-of-algorithms-30045.html" target="blank">Euclid's</a> mentality for a bit.</p>
+        
+        <p class="mt-1">There are <a href="">8 major sorting algorithms</a> which may recieve input in <a href="">4 different initial conditions</a>.
+        If that wasn't enough in itself, add the heap of <a href="">languages and frameworks</a> to choose from & there go the next umpteen hours.</p>
+        
+        <!--Actionables-->
+        <p class="mt-3 highlight-text"> This page will let you:</p>
+        <div style="text-align: left;">
+            <p class="mt-2"> 🎯 Select from 8 sorting algorithm</p>
+            <p class="mt-2"> 🎯 Select from 4 different load types for the algorithm</p>
+            <p class="mt-2"> 🎯 Select from 3 different languages to sort the load</p>
+        </div>
+
+        <!--Things to note-->
+        <p class="mt-3 highlight-text"> Please note:</p>
+        <div style="text-align: left;">
+            <p class="mt-2"> 📝 There is no best sorting algorithm</p>
+            <p class="mt-2"> 📝 Worse-case asymptotic behavior is not always the deciding factor in choosing an algorithm</p>
+            <p class="mt-2"> 📝 The initial condition (input order and key distribution) affects performance as much as the algorithm choice.</p>
+            <p class="mt-2"> 📝 There is no best sorting algorithm</p>
+        
+        </div>
+
+        <!--Ideal algo-->
+        <p class="mt-3 highlight-text"> An ideal algorithm would be:</p>
+        <div style="text-align: left;">
+            <p class="mt-2"> 💂🏼‍♀️ Stable: Equal keys aren’t reordered.</p>
+            <p class="mt-2"> 💂🏼‍♀️ Operates in place, requiring O(1) extra space.</p>
+            <p class="mt-2"> 💂🏼‍♀️ Worst-case O(n·lg(n)) key comparisons.</p>
+            <p class="mt-2"> 💂🏼‍♀️ Worst-case O(n) swaps.</p>
+            <p class="mt-2"> 💂🏼‍♀️ Adaptive: Speeds up to O(n) when data is nearly sorted or when there are few unique keys.</p>
+            <p class="mt-2"> 💂🏼‍♀️ There is no algorithm that has all of these properties, and so the choice of sorting algorithm depends on the application.</p>            
+        </div>
+        </div>
+    </div>
+
+   
+
+    <div class="row row-center m-5">
+        
+        <p>Sort using 
+            <select name="algorithm" id="algorithm" class="underline-select"> 
+                <option value="insertion">Insertion</option>
+                <option value="selection">Selection</option>
+                <option value="bubble">Bubble</option>
+                <option value="shell">Shell</option>
+                <option value="merge">Merge</option>
+                <option value="heap">Heap</option>
+                <option value="quick">Quick</option>
+                <option value="quick3">Quick3</option>
+            </select> 
+        </p>
+    </div>
+
+    <div class="row row-center m-5">
+        <p>
+            with an initial condition
+            <select name="load" id="load" class="underline-select"> 
+                <option value="random">Random</option>
+                <option value="nearlySorted">Nearly Sorted</option>
+                <option value="reversed">Reversed</option>
+                <option value="fewUnique">Few Unique</option>
+            </select> 
+
+        </p>
+    </div>
+
+    <div class="row row-center m-5">
+        <p>
+            using language
+
+            <select name="lingo" id="lingo" class="underline-select"> 
+                <option value="js">Javascript</option>
+                <option value="java">Java</option>
+                <option value="py">Python</option>
+            </select> 
+            
+        </p>
+    </div>
+        
+
+    <div class="row row-center">
+        <div class="col-md-2" (click)="showAbout = !showAbout">
+            <p class="tag highlight-text" style="background-color:#0BC371;">Start ➡️</p> 
+        </div>
+    </div>
+        
+       
+
+    
+
+</div>

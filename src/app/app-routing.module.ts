@@ -10,13 +10,16 @@ import { HalfdesignComponent } from './public/halfdesign/halfdesign.component';
 import { HalfAppStyleComponent } from './public/half-app-style/half-app-style.component';
 import { FirechatComponent } from './public/applications/firechat/firechat.component';
 import { HungryjerryComponent } from './public/applications/hungryjerry/hungryjerry.component';
-
+import { SortsComponent } from './public/applications/sorts/sorts.component';
+import { StackComponent } from './public/applications/stack/stack.component';
 
 
 const routes: Routes = [
   { path:'', component:HalfAppStyleComponent },
   { path: 'chat', component: FirechatComponent },
   { path: 'hungryJerry', component:  HungryjerryComponent},
+  { path: 'sorts', component:  SortsComponent},
+  { path: 'stack',component: StackComponent },
   { path: 'half', component: HalfdesignComponent },
   { path:'parts',component:ParticleDesignComponent},
   { path:'cards',component:CardsDesignComponent},
