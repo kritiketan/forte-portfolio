@@ -1,27 +1,8 @@
 # FortePortfolio
-Test change
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
+This is a personal porfolio project for Kritiketan Sharma.
+It used to be hosted @ kritiketan.co until July 2021. 
+Build in Angular.
+This project had my attention for about 1 month.
+Since I no longer use Angular as my primary JS framework for developed after switching to React in October 2021 (Used at my current org). 
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+The plan is to port the same design to React JS and add more current informating to it.
